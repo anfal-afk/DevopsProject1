@@ -49,7 +49,7 @@ pipeline {
             }
         }
 
-        stage("5. Maven Integration Test") {
+        stage("5. Maven Integration Test sample") {
             //  Test the interaction between different units of code
             steps{
                 dir ("DevopsProject1"){
